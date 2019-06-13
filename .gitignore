@@ -1,0 +1,2 @@
+# Ignore all DS_Store matches ever.
+**/*.DS_Store*
