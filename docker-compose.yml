@@ -1,0 +1,10 @@
+version: '2'
+services:
+  filtered-integration:
+    image: filtered/go-dev:0.0.6
+    volumes:
+      - .:/go/src/github.com/excelWithBusiness/Filtered-Integration
+    working_dir: /go/src/github.com/excelWithBusiness/Filtered-Integration
+    command: ./dist/filtered-integration
+    expose:
+      - 80
