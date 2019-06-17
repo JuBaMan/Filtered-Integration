@@ -3,3 +3,6 @@
 
 # The app build from go build
 dist/
+
+# App dependencies
+vendor/*/
