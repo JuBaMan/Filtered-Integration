@@ -6,5 +6,5 @@ services:
       - .:/go/src/github.com/excelWithBusiness/Filtered-Integration
     working_dir: /go/src/github.com/excelWithBusiness/Filtered-Integration
     command: ./dist/filtered-integration
-    expose:
-      - 80
+    ports:
+      - 5999:8080
